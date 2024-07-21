@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Encriptador OracleONE</title>
 </head>
 <body>
-    <textarea placeholder="Ingresa el texto aquí..."></textarea>
-    <button id="encriptar">Encriptar</button>
-    <button id="desencriptar">Desencriptar</button>
-    <p class="convertido"></p>
+    <textarea id="inputArea" placeholder="Ingresa el texto aquí..."></textarea>
+    <button onclick="encriptarTexto()"; id="encriptarBoton">Encriptar</button>
+    <button onclick="desencriptarTexto()"; id="desencriptarBoton">Desencriptar</button>
+    <button onclick="copiarTexto()"; id="copiarBoton">Copiar</button>
+    <textarea id="convertido"></textarea>
 </body>
 <footer>
     <p>Nelly lo creó</p>

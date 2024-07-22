@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Encriptador OracleONE</title>
 </head>
+
 <body>
-    <textarea id="inputArea" placeholder="Ingresa el texto aquí..."></textarea>
-    <button onclick="encriptarTexto()"; id="encriptarBoton">Encriptar</button>
-    <button onclick="desencriptarTexto()"; id="desencriptarBoton">Desencriptar</button>
-    <button onclick="copiarTexto()"; id="copiarBoton">Copiar</button>
-    <textarea id="convertido"></textarea>
+    <div class="ladoEncriptador">
+        <textarea id="inputArea" placeholder="Ingresa el texto aquí..."></textarea>
+        <div class="botonesEncriptador">
+            <button onclick="encriptarTexto()"  class="button" id="encriptarBoton">Encriptar</button>
+            <button onclick="desencriptarTexto()"  class="button" id="desencriptarBoton">Desencriptar</button>
+        </div>
+        <div class="ladoResultadoSinTexto">
+            <img src="img/search_notext.svg" />
+            <h1>Ningún mensaje fue encontrado</h1>
+            <p>Ingresa el texto que desees encriptar o desencriptar. </p>
+        </div>
+        <div class="ladoResultado">
+            <textarea id="convertido" readonly ></textarea>
+            <button onclick="copiarTexto()" ; class="button" id="copiarBoton" >Copiar</button>
+        </div>
+    </div>
+
 </body>
 <footer>
-    <p>Nelly lo creó</p>
+    <p>Encriptador de Texto creado para OracleONE, por Nelly Becerra.</p>
 </footer>
+
 </html>

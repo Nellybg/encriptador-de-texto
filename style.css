@@ -1,0 +1,138 @@
+/* Estilo general para desktop */
+html {
+    background-color: #F3F5FC;
+}
+
+.button {
+    background-color: #30B0C7; 
+    border: none;
+    border-radius: 24px;
+    color: white;
+    width: 300px;
+    height: 67px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#desencriptarBoton:hover {
+    background-color: #30B0C7;
+    color: white;
+}
+
+.ladoEncriptador {
+    background-color: #F3F5FC;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#inputArea {
+    border: none;
+    height: 600px; 
+    width: 55%;
+    margin: 20px 0;
+    background-color: #F3F5FC;
+    color: #30B0C7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+textarea::placeholder {
+    color: #30B0C7;
+}
+
+.botonesEncriptador {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.ladoResultado {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-top: -770px;
+    height: 820px;
+    width: 500px;
+    margin-left: 60%;
+    box-shadow: 7px 13px 26px 3px rgba(0,0,0,0.43);
+}
+
+#desencriptarBoton {
+    border: 2px solid #30B0C7;
+    background-color: #F3F5FC;
+    color: #30B0C7;
+}
+
+#copiarBoton {
+    border: 2px solid #30B0C7;
+    background-color: #F3F5FC;
+    color: #30B0C7;
+    margin-top: 20px;
+    margin-left: 17%;
+}
+
+#copiarBoton:hover {
+    background-color: #30B0C7;
+    color: white;
+}
+
+#convertido {
+    height: 595px;
+    width: 400px;
+    margin: 30px 40px;
+    color: #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border: none;
+}
+
+footer {
+    color: #7d7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+#inputArea:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#convertido:focus {
+    outline: none !important;
+}
+
+.ladoResultadoSinTexto {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-top: -770px;
+    height: 820px;
+    width: 500px;
+    margin-left: 60%;
+    box-shadow: 7px 13px 26px 3px rgba(0,0,0,0.43);
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+p {
+    font-size: 1em;
+}

@@ -136,3 +136,87 @@ h1 {
 p {
     font-size: 1em;
 }
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 1280px) and (min-width: 768px) {
+    .botonesEncriptador {
+        margin-left: 7%;
+    }
+
+    .ladoResultado, .ladoResultadoSinTexto {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+        box-shadow: 3px 3px 16px 3px rgba(0,0,0,0.13);
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    #inputArea {
+        width: 90%;
+        height: 670px;
+        margin-top: 10%;
+    }
+
+    #convertido {
+        width: 90%;
+        height: auto;
+    }
+
+    img{
+        display: none;
+    }
+    #copiarBoton {
+        margin-top: 0px;
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .botonesEncriptador {
+        margin-left: 7%;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .ladoResultado, .ladoResultadoSinTexto {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+        box-shadow: 3px 3px 16px 3px rgba(0,0,0,0.13);
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    #inputArea {
+        width: 90%;
+        height: 20rem;
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+
+    #convertido {
+        width: 90%;
+        height: auto;
+    }
+
+    img{
+        display: none;
+    }
+    #copiarBoton {
+        margin-top: 0px;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
